@@ -1,0 +1,3 @@
+include 'whistlepostnet-app'
+include 'whistlepostnet-content'
+include 'whistlepostnet-config'
