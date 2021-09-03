@@ -1,0 +1,76 @@
+---
+label: Recipe
+hide_body: true
+fields:
+- name: advanced_configuration
+  type: boolean
+  label: Advanced Configuration
+  description: Show advanced configuration settings.
+- name: sling:resourceType
+  type: text
+  config:
+    required: true
+  label: Resource Type
+  description: Default resource type used to render page content.
+  showOnly:
+    field: advanced_configuration
+    value: true
+  default: wp/page/recipe
+- name: creativeWork
+  type: include
+  config: {}
+  template: creativework
+  label: Creative Work
+  description: Parent template
+- name: recipeIngredient
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Ingredients
+  description: A single ingredient used in the recipe, e.g. sugar, flour or garlic.
+- name: recipeInstructions
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Instructions
+  description: A step in making the recipe, in the form of a single item (document,
+    video, etc.) or an ordered list with HowToStep and/or HowToSection items.
+- name: recipeCategory
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: categories
+      file: 
+      path: 
+  label: Category
+  description: The category of the recipe—for example, appetizer, entree, etc.
+- name: sidebar
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: recipes
+      file: 
+      path: 
+  label: Sidebar
+- name: related
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: pages
+      section: recipes
+  label: Related

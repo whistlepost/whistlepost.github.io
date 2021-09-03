@@ -1,0 +1,18 @@
+{
+  "latitude": -37.813611,
+  "longitude": 144.963056,
+  "title": "Melbourne, Australia",
+  "name": "Melbourne",
+  "description": "",
+  "image": "",
+  "url": "https://en.wikipedia.org/wiki/Melbourne",
+  "address": "",
+  "addressCountry": "Australia",
+  "postalCode": "",
+  "photo": [
+    "content/gallery/list/boats-on-the-bay.json"
+  ],
+  "hasMap": "https://www.openstreetmap.org/?mlat=-37.813611&mlon=144.963056&zoom=12#map=12/-37.8136/144.9631",
+  "advanced_configuration": false,
+  "sling:resourceType": "wp/page/place"
+}

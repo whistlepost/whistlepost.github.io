@@ -1,0 +1,18 @@
+{
+  "menu": [
+    {
+      "name": "Home",
+      "link": "/content/wp/index.html",
+      "target": "content/index.json"
+    },
+    {
+      "name": "Technology",
+      "target": "content/categories/list/technology.json"
+    },
+    {
+      "name": "About Us",
+      "link": "/content/wp/about.html",
+      "target": "content/about.json"
+    }
+  ]
+}

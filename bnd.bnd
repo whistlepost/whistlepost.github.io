@@ -1,0 +1,4 @@
+Sling-Initial-Content: SLING-INF/content;path:=/content/wp-studios;overwrite:=true
+Sling-Bundle-Resources: /assets/wp-studios;path:=/assets
+Bundle-Name: wp-studios-content
+Bundle-SymbolicName: org.whistlepost.wp-studios

@@ -22,3 +22,6 @@ elbento-sling.iml
 node_modules/
 package-lock.json
 yarn.lock
+
+*.tfvars
+*.tfstate*

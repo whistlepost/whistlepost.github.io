@@ -1,0 +1,23 @@
+---
+label: _feature
+hide_body: true
+fields:
+- name: homepage
+  type: include
+  config: {}
+  template: homepage
+  label: Homepage
+- name: feature
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: ''
+      file: 
+      path: 
+  label: Feature Article
+pages:
+- content/index.json

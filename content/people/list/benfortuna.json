@@ -1,0 +1,22 @@
+{
+  "address": [
+
+  ],
+  "birthPlace": [
+
+  ],
+  "gender": "",
+  "title": "Ben Fortuna",
+  "name": "Ben Fortuna",
+  "description": "Whistlepost creator.",
+  "image": "",
+  "url": "https://www.elbento.com",
+  "additionalName": "",
+  "birthDate": "",
+  "email": "fortuna@micronode.com",
+  "familyName": "",
+  "givenName": "",
+  "homeLocation": "content/places/list/melbourne-australia.json",
+  "advanced_configuration": false,
+  "sling:resourceType": "wp/page/person"
+}

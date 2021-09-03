@@ -1,0 +1,5 @@
+{
+  "sling:resourceType":"wp/category",
+  "name": "Nature",
+  "color": "green"
+}

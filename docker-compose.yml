@@ -1,0 +1,21 @@
+version: "3"
+services:
+  whistlepost:
+    image: "micronode/whistlepost:latest"
+    ports:
+      - "8080:8080"
+    environment:
+      - JAVA_OPTS=-Dsling.run.modes=dev
+    volumes:
+      - ./assets:/wp/assets/wp-site:ro
+      - ./content:/wp/content:ro
+      - ./config/etc/map:/wp/config/etc/map:ro
+      - /Users/fortuna/Development/whistlepost/whistlepost-bootstrap-template/build/libs/wp-bootstrap-0.1.0-SNAPSHOT.jar:/opt/sling/wp/install/20/wp-bootstrap.jar:ro
+
+  autoheal:
+    restart: always
+    image: willfarrell/autoheal
+    environment:
+      - AUTOHEAL_CONTAINER_LABEL=all
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock

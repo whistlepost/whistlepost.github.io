@@ -1,0 +1,54 @@
+{
+  "sling:resourceType": "wp/socialmedia",
+  "jcr:primaryType": "nt:unstructured",
+  "socialNetwork": [
+    {
+      "platform": "GitHub",
+      "facebookPage": "",
+      "twitterHandle": "",
+      "instagramHandle": "",
+      "youtubeChannel": "",
+      "linkedinHandle": "",
+      "githubOrganization": "whistlepost",
+      "bitbucketWorkspace": "",
+      "gitlabGroup": "",
+      "azureDevopsOrganization": ""
+    },
+    {
+      "platform": "Azure DevOps",
+      "facebookPage": "",
+      "twitterHandle": "",
+      "instagramHandle": "",
+      "youtubeChannel": "",
+      "linkedinHandle": "",
+      "githubOrganization": "",
+      "bitbucketWorkspace": "",
+      "gitlabGroup": "",
+      "azureDevopsOrganization": "Whistlepost"
+    },
+    {
+      "platform": "GitLab",
+      "facebookPage": "",
+      "twitterHandle": "",
+      "instagramHandle": "",
+      "youtubeChannel": "",
+      "linkedinHandle": "",
+      "githubOrganization": "",
+      "bitbucketWorkspace": "",
+      "gitlabGroup": "Whistlepost",
+      "azureDevopsOrganization": ""
+    },
+    {
+      "platform": "Bitbucket",
+      "facebookPage": "",
+      "twitterHandle": "",
+      "instagramHandle": "",
+      "youtubeChannel": "",
+      "linkedinHandle": "",
+      "githubOrganization": "",
+      "bitbucketWorkspace": "Whistlepost",
+      "gitlabGroup": "",
+      "azureDevopsOrganization": ""
+    }
+  ]
+}

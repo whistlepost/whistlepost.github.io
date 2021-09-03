@@ -1,0 +1,33 @@
+---
+label: _navigation
+hide_body: true
+fields:
+- name: menu
+  type: field_group_list
+  fields:
+  - name: name
+    type: text
+    config:
+      required: false
+    label: Display Name
+    description: Name of the menu item
+  - name: target
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: 
+        file: 
+        path: 
+    label: Target
+  config:
+    min: 
+    max: 
+    labelField: name
+  label: Menu Item
+  description: Menu items displayed at the top of each page.
+pages:
+- content/navigation.json

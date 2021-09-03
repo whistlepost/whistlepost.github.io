@@ -1,0 +1,4 @@
+{
+  "sling:match": ".*localhost.8080/(footer)",
+  "sling:internalRedirect": "/content/wp-studios/$1"
+}

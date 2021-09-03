@@ -1,0 +1,39 @@
+---
+label: _list
+hide_body: true
+display_field: name
+fields:
+- name: sling:resourceType
+  type: text
+  config:
+    required: true
+  label: sling:resourceType
+  default: wp/page/article-list
+- name: name
+  type: text
+  config:
+    required: false
+  label: Name
+- name: sling:alias
+  type: text
+  config:
+    required: false
+  label: sling:alias
+  default: current
+- name: sling_vanitypath
+  type: text
+  config:
+    required: false
+  label: sling:vanityPath
+- name: pageSize
+  type: number
+  label: Page Size
+  description: ''
+  default: 6
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+pages:
+- content/articles/2021.json
