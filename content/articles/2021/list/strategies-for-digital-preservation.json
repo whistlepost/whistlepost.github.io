@@ -1,0 +1,34 @@
+{
+  "sling:resourceType": "wp/page/article",
+  "audio": [
+
+  ],
+  "author": "content/people/list/benfortuna.json",
+  "category": "content/categories/list/technology.json",
+  "datePublished": "2021-09-06",
+  "keywords": [
+    "web",
+    "content",
+    "archiving"
+  ],
+  "license": "content/licenses/list/cc-attribution.json",
+  "video": [
+
+  ],
+  "sidebar": [
+
+  ],
+  "advanced_configuration": false,
+  "title": "Strategies for Digital Preservation",
+  "name": "",
+  "description": "",
+  "image": "",
+  "url": "",
+  "abstract": "",
+  "headline": "",
+  "published": false,
+  "text": "<p>With the rapid pace of change around Internet software and technologies, a major challenge for content publishers is how to archive the growing catalogue of published content. Content that is designed for today may not be accessible in ten or twenty years due to the lack of backwards compatibility inherent with software evolution.</p><p>The separation of content and presentation can help to increase longevity of content, but many Content Management Systems (CMS) will also suffer from the same forces that render software formats obsolete, with CMS software itself in danger of obsolescence.</p>",
+  "related": [
+
+  ]
+}
