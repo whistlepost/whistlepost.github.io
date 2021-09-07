@@ -1,0 +1,10 @@
+{
+  "sling:resourceType": "wp/page/product",
+  "category": "content/categories/list/technology.json",
+  "advanced_configuration": false,
+  "title": "Whistlepost",
+  "name": "",
+  "description": "Whistlepost is an Open Source digital content publishing tool.",
+  "image": "",
+  "url": "https://www.whistlepost.org"
+}
