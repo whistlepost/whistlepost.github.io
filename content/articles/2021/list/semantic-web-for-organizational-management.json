@@ -1,0 +1,35 @@
+{
+  "sling:resourceType": "wp/page/article",
+  "audio": [
+
+  ],
+  "author": "content/people/list/benfortuna.json",
+  "category": "content/categories/list/technology.json",
+  "datePublished": "2021-09-14",
+  "keywords": [
+    "semantic",
+    "web",
+    "content",
+    "management"
+  ],
+  "license": "content/licenses/list/cc-attribution.json",
+  "video": [
+
+  ],
+  "sidebar": [
+
+  ],
+  "advanced_configuration": false,
+  "title": "Semantic Web for Organizational Management",
+  "name": "",
+  "description": "",
+  "image": "",
+  "url": "",
+  "abstract": "",
+  "headline": "",
+  "published": false,
+  "text": "<p>Organizations both large and small must have a strategy for digital content management. Whether it be documents for specifications and tooling, communications via email or other technologies, content must be secure, up to date, and readily accessible all at once.</p><h4>Managing Structured Data</h4><p>Often we find it easier to maintain data using unstructured tooling, such as spreadsheets and Wikis. These tools offer the freedom to quickly capture information with a minimal effort, and evolve the structure and content over time. For so-called \"living\" documents this appears to be a sensible approach.</p><p>However, over time we find that the same benefits we find with these tools initially, can also lead to poor data management practices over time. The nature of unstructured data is that it allows for exceptions and cannot be relied upon to follow the same rules as structured data. As such, we need alternatives for managing structured data effectively.</p><p>A common approach is to build bespoke applications to manage structured data internally, however these systems are often not built according to standards and without adequate foresight can fall into the same trap of poorly managed unstructured tooling.</p><h4>Following Standards</h4><p>To ensure longevity of data and interoperability a standards-based approach to data management is preferred. <a href=\"https://schema.org/\" title=\"\">Schema.org</a> is one initiative that has a lot of support from leading organizations such as Google, etc. and is a good foundation for data management.</p><p></p>",
+  "related": [
+
+  ]
+}
