@@ -12,7 +12,7 @@
   "published": true,
   "datePublished": "",
   "headline": "",
-  "text": "",
+  "text": "<p>Whistlepost Studios is dedicated to the design and support of content-rich websites and applications based on open standards. We are committed to structured data initiatives like the <a href=\"https://en.wikipedia.org/wiki/Semantic_Web\" title=\"\">Semantic Web</a>, and believe this is the next evolutionary step of web design.</p><p>We provide support for <a href=\"https://www.whistlepost.org/\" title=\"\">Whistlepost</a>, a platform for building structured websites and applications based on open standards such as <a href=\"https://schema.org/\" title=\"\">Schema.org</a>.</p><p></p>",
   "image": "",
   "category": "",
   "keywords": [
@@ -21,5 +21,10 @@
   "license": "",
   "relatedLink": [
 
-  ]
+  ],
+  "name": "",
+  "description": "",
+  "url": "",
+  "audio": "",
+  "video": ""
 }
