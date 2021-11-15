@@ -3,7 +3,7 @@
   "sling:resourceType": "wp-bootstrap/page/feature",
   "show_advanced_settings": false,
   "jcr:primaryType": "nt:unstructured",
-  "description": "Digital content management solutions",
+  "description": "Content publishing solutions",
   "author": "",
   "featureArticle": "",
   "feature": "content/articles/2021/list/strategies-for-digital-preservation.json"
